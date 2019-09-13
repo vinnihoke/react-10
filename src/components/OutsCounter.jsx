@@ -4,7 +4,7 @@ const OutsCounter = props => {
   return (
     <div id="ballCounter">
       <span>{props.state.outs}</span>
-      <button onClick={() => props.handleOut()}>Add Out</button>
+      <span> Outs</span>
     </div>
   );
 };
